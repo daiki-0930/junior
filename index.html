@@ -1,3 +1,6 @@
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 <!-- index.html -->
 <!DOCTYPE html>
 <html>
@@ -8,7 +11,51 @@
 <body>
     <h1 class="center">Great Math Problems-junior</h1>
     <p class="center"><a href="https://daiki-0930.github.io/my-project/">ホームに戻る</a></p>
-    <p>aaabbbccc</p>
+</body>
+
+<body>
+    <p>Section_1(例題)</p>
+
+    <p>
+        \(1から100までの自然数nに対して以下の等式を満たすnの個数を求めよ\)
+        <br>
+        \( f(\frac{f(n^2)}{f(n)}) = n-1\)
+        <br>
+        \(ただし、f(x)で[x]以下の自然数のうち[x]と互いに素なものの個数を表す\)
+        <br>
+        \(ただし、[x]でxを超えない最大の整数を表す\)
+
+    </p>
+
+    <!-- 折り畳み展開ポインタ -->
+    <div onclick="obj=document.getElementById('hint_1').style; obj.display=(obj.display=='none')?'block':'none';">
+    <a style="cursor:pointer;">▼ ヒント_1(クリックで展開)</a>
+    </div>
+    <!--// 折り畳み展開ポインタ -->
+
+    <!-- 折り畳まれ部分 -->
+    <div id="hint_1" style="display:none;clear:both;">
+
+    \(まずは\frac{f(n^2)}{f(n)}の値をnを使った式で表すことを考えよう\)
+    \(nに小さい値を代入してみると規則性がわかるかもしれない\)
+
+    <!-- 折り畳み展開ポインタ -->
+    <div onclick="obj=document.getElementById('hint_2').style; obj.display=(obj.display=='none')?'block':'none';">
+    <a style="cursor:pointer;">▼ ヒント_2(クリックで展開)</a>
+    </div>
+    <!--// 折り畳み展開ポインタ -->
+
+    <!-- 折り畳まれ部分 -->
+    <div id="hint_2" style="display:none;clear:both;">
+
+    wwww
+
+    </div>
+    <!--// 折り畳まれ部分 -->
+
+    </div>
+    <!--// 折り畳まれ部分 -->
+
 </body>
 
 </html>
